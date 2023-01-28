@@ -10,15 +10,13 @@ countryCode = getCountryCode()
 feelsLike = getFeelsLike()
 
 # Let's print the info!
-def giveDetails():
-    os.system('cls||clear')
-    print('City Name: ' + cityName)
-    print('Country: ' + countryCode)
-    print('Weather Description: ' + str(weatherDesc))
-    print('Tempurature: ' + str(currentTemp) + ' F')
-    print('Feels Like: ' + str(feelsLike) + ' F')
-    print('Humidity: ' + str(currentHumidity) + '%')
-    print('Yay! :)')
-    return
 
-print(giveDetails())
+os.system('cls||clear')
+print('City Name: ' + cityName)
+print('Country: ' + countryCode)
+print('Weather Description: ' + str(weatherDesc))
+print('Tempurature: ' + str(currentTemp) + ' F')
+print('Feels Like: ' + str(feelsLike) + ' F')
+print('Humidity: ' + str(currentHumidity) + '%')
+print('Yay! :)')
+
